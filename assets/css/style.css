@@ -38,7 +38,10 @@
 
 /*----------------Special dimensions*/
 
-h1, h2, h3, h4 {
+h1,
+h2,
+h3,
+h4 {
     margin: 0;
 }
 
@@ -76,12 +79,13 @@ h1, h2, h3, h4 {
 }
 
 /*----------------Headings*/
- .heading{
-    margin-left: 50px;
- }
-
+ 
 header {
     margin:0;
+}
+
+.heading{
+    margin-left: 50px;
 }
 
 .logo {
@@ -264,7 +268,7 @@ footer {
     width: 30%;
 }
 
-/*----------------Personal Info */
+/*----------------Skills */
 
 .progress {
     position: relative;
@@ -281,9 +285,9 @@ footer {
     background-color: rgba(25, 25, 25, 0.2)
 }
 
-/*.progress-section {
+.progress-section {
     margin: 40px 20px;
-}*/
+}
 
 /*----------------Work History */
 
